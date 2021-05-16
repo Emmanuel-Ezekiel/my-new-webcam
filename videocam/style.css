@@ -1,0 +1,52 @@
+
+
+h1 {
+    border: none;
+    color: #424242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+button {
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0 1.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: cadetblue;
+}
+
+video {
+    width: 525px;
+    height: 400px;
+    display: block;
+    margin: 3rem auto;
+    border: 6px solid black;
+    border-radius: 5px;
+}
+
+#screenshots {
+    display: flex;
+    justify-content: center;
+}
+
+#screenshots img {
+    max-width: 100%;
+    width: 17rem;
+    margin-right: 1.5rem;
+    border-radius: 4px;
+}
